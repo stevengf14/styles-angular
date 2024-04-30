@@ -29,7 +29,7 @@ export class AppComponent {
     ];
   }
 
-  mostrarActivo(elemento: HTMLElement, boton: HTMLElement) {
+  showActive(elemento: HTMLElement, boton: HTMLElement) {
     if (this.antiguo) {
       this.renderer.removeClass(this.antiguo, 'destacado');
     }
